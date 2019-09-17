@@ -9,7 +9,7 @@ setup(
     author_email     = 'jaewoong.go@gmail.com',
     url              = 'https://github.com/jwkcp/django-preview-card',
     download_url     = 'https://github.com/jwkcp/django-preview-card/#files',
-    install_requires = ['beautifulsoup4'],
+    install_requires = ['beautifulsoup4', 'requests', ],
     packages         = find_packages(exclude = ['docs', 'example']),
     keywords         = ['django', 'cardview', 'newsfeed'],
     python_requires  = '>=3',
