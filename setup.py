@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name             = 'django-preview-card',
+    name             = 'preview-card',
     version          = '1.0.0',
     description      = 'Anyone can obtain data(url, image, title, description, etc) easily from plain text for showing preview card like Twitter, Facebook newsfeed',
     long_description = open('README.md').read(),
