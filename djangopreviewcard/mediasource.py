@@ -31,6 +31,8 @@ class _Youtube(_AbstractMediaSource):
         - http://www.youtube.com/watch?v=_oPAwA_Udwc&feature=feedu
         - http://www.youtube.com/embed/SA2iWivDJiE
         - http://www.youtube.com/v/SA2iWivDJiE?version=3&amp;hl=en_US
+        Comments:
+        - This code copied from one of replies in stackoverflow.com
         """
         query = urlparse(self.__url)
         if query.hostname == 'youtu.be':
